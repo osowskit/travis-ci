@@ -9,5 +9,5 @@ else
 fi
 
 # Command needs to be first
-COMMAND="$@ --token $TRAVIS_API_TOKEN $ENDPOINT"
+COMMAND="$@ $ENDPOINT"
 eval travis "$COMMAND"
